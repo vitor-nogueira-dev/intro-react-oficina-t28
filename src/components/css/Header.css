@@ -1,0 +1,35 @@
+.h-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  padding: 14px;
+
+  background-image: linear-gradient(to right, #22c55e, #facc15);
+
+  border-bottom: 0.2px solid black;
+}
+
+.h-content-title,
+.h-content-subtitle {
+  text-align: right;
+}
+
+.h-content-img {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.49);
+}
+
+
+@media screen and (max-width: 668px) {
+  .h-content-title {
+    font-size: 13px;
+  }
+  .h-content-img {
+    width: 100px;
+  }
+}
